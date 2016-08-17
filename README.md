@@ -8,19 +8,19 @@ unzip -u grok-stable-darwin-amd64.zip
 
 If you aren't on the command line yet, open up Terminal, `cd to the directory that ngrok unzipped into and run:
 
-`./ngrok http 8080
+`./ngrok http 8080`
 
 
 You should see an ngrok _dashboard_ with a bunch of info. Make sure that your tunnel status is online, like so:
 
-`Tunnel Status                 online 
+`Tunnel Status                 online` 
 
 Copy and paste the url that appears on the line that looks like this:
 
-`Forwarding                    http://[unique random numbers and letters here].ngrok.io -> localhost:8080  
+`Forwarding                    http://[unique random numbers and letters here].ngrok.io -> localhost:8080`  
 
 Open a new terminal tab and run:
 
-`python -m SimpleHTTPServer 8080
+`python -m SimpleHTTPServer 8080`
 
 
