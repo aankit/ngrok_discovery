@@ -12,9 +12,7 @@ If you aren't on the command line yet, open up Terminal, `cd to the directory th
 `./ngrok http 8080`
 
 
-You should see an ngrok _dashboard_ with a bunch of info. Make sure that your tunnel status is online, like so:
-
-`Tunnel Status                 online` 
+You should see an ngrok _dashboard_ with a bunch of info. Make sure that your tunnel status is online. If not, try a different port or consult this [useful documentation courtsey of github][https://developer.github.com/webhooks/configuring/#using-ngrok]
 
 Copy and paste the url that appears on the line that looks like this:
 
